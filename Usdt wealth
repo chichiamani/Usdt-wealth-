@@ -1,0 +1,63 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investment Platform</title>
+    <link rel="stylesheet" href="styles.css"> <!-- You can create a separate CSS file for styling -->
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+        header { background: #333; color: #fff; padding: 10px 20px; text-align: center; }
+        section { padding: 20px; }
+        .investment-options { display: flex; justify-content: space-around; }
+        .option { background: #fff; padding: 20px; margin: 10px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); }
+        footer { text-align: center; padding: 20px; background: #333; color: #fff; position: relative; bottom: 0; width: 100%; }
+        form { display: flex; flex-direction: column; width: 300px; margin: auto; }
+        input, button { padding: 10px; margin: 5px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Investment Platform</h1>
+    <p>Grow your wealth securely with our investment options</p>
+</header>
+
+<section>
+    <h2>Investment Options</h2>
+    <div class="investment-options">
+        <div class="option">
+            <h3>USDT Investment</h3>
+            <p>Invest in USDT for stable growth.</p>
+            <button>Invest Now</button>
+        </div>
+        <div class="option">
+            <h3>Crypto Portfolio</h3>
+            <p>Diversify your investments across multiple cryptocurrencies.</p>
+            <button>Invest Now</button>
+        </div>
+        <div class="option">
+            <h3>Stocks & Bonds</h3>
+            <p>Traditional investment in stocks and bonds.</p>
+            <button>Invest Now</button>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2023 Investment Platform. All rights reserved.</p>
+</footer>
+
+</body>
+</html
